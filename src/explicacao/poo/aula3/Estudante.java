@@ -20,6 +20,53 @@ public class Estudante {
    private String nome;
    private String apelido;
    private int idade;
+
+   
+   //O que sao metodos - Representam uma accao de ccada objecto
+   //Quais os tipos- 2 tipos; metodos com retorno e sem retorno
+   // sem retorno- 
+   //Criacao de metodos
+   
+   
+   
+    public Estudante(String nomecompleto, String nome, String apelido, int idade) {
+        this.nomecompleto = nomecompleto;
+        this.nome = nome;
+        this.apelido = apelido;
+        this.idade = idade;
+    }
+
+    public String getNomecompleto() {
+        return nomecompleto;
+    }
+
+    public void setNomecompleto(String nomecompleto) {
+        this.nomecompleto = nomecompleto;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public String getApelido() {
+        return apelido;
+    }
+
+    public void setApelido(String apelido) {
+        this.apelido = apelido;
+    }
+
+    public int getIdade() {
+        return idade;
+    }
+
+    public void setIdade(int idade) {
+        this.idade = idade;
+    }
          
    
     
