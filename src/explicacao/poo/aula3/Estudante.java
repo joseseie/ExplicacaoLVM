@@ -16,7 +16,7 @@ public class Estudante {
     //protected
     
     
-   private String nomecompleto;
+   private String nomeCompleto;
    private String nome;
    private String apelido;
    private int idade;

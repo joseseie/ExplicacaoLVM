@@ -24,6 +24,11 @@ public class Teoria {
         m.teste("marcia", 12);
                 
                 
+        //Chamamento de metodos com retorno;
+        
+        int idade = m.calcularIdade(2007);
+        
+        System.out.println("Idade da pesssoa: "+idade);
                 
     }
     

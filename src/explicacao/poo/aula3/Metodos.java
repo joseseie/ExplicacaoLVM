@@ -33,6 +33,11 @@ public class Metodos {
     
     //metodos com retorno
     
+    public int calcularIdade(int anoDeNascimento) {
+        
+        return 2017 - anoDeNascimento;
+        
+    }
     
     
     
