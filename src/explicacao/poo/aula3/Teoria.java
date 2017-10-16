@@ -2,7 +2,11 @@
 package explicacao.poo.aula3;
 
 /**
- *
+ * TPC desta aula: Criar nas classes dadas como TPC pelo @Claudio Sumburane:
+ * - 6 metodos:
+ * - 3 metodos diferentes, sem retorno e com numero de parametros diferentes.
+ * - 3 metodos diferentes, com retorno e com numero de parametros diferentes.
+ * 
  * @author José Seie
  * @author Marcia
  * @author Laimaze
