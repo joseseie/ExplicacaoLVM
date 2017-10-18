@@ -30,18 +30,18 @@ public class Estudante {
    
    
     public Estudante(String nomecompleto, String nome, String apelido, int idade) {
-        this.nomecompleto = nomecompleto;
+        this.nomeCompleto = nomecompleto;
         this.nome = nome;
         this.apelido = apelido;
         this.idade = idade;
     }
 
     public String getNomecompleto() {
-        return nomecompleto;
+        return nomeCompleto;
     }
 
     public void setNomecompleto(String nomecompleto) {
-        this.nomecompleto = nomecompleto;
+        this.nomeCompleto = nomecompleto;
     }
 
     public String getNome() {
