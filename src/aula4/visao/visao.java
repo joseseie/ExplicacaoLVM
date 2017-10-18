@@ -51,6 +51,7 @@ public class visao {
 //    
         
         String texto;
+        
         int idade;
         
 //        Atribuicao
