@@ -19,7 +19,17 @@ public class ParteTeorica {
      * Atibutos e metodos(modificadores (public, private, protected))
      * 
      * 
-     * Exemplo....
+     * Exemplo
+     * 
+     * 
+     * Modelo (Classes (Geram os objectos))
+     * 
+     * 
+     * 
+     * 
+     * 
+     * Banco (Funcionarios (Gerente, Contabilista))
+     * 
      * 
      * 
      * 

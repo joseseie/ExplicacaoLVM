@@ -6,6 +6,8 @@
 
 package aula4.visao;
 
+import aula4.modelo.Funcionario;
+import aula4.modelo.Gerente;
 import javax.swing.JOptionPane;
 
 /**
@@ -14,9 +16,59 @@ import javax.swing.JOptionPane;
  */
 public class visao {
     
+    
+    
+    
+    /**
+     * Ver (Visao)
+     * @param args 
+     */
+    
     public static void main(String[] args) {
         
-        JOptionPane.showMessageDialog(null, "Olá Mundo");
+
+        
+        /* Objecto do tipo Funcionario*/
+        
+        Funcionario claudio = new Funcionario();
+        
+        Funcionario f = new Funcionario();        
+        
+        
+//        f.saudacao("Vania");
+        
+        
+//        
+//        System.out.println(claudio.getNome());  claudio.setNome("Sumburane");
+//        
+//        
+//        
+//        f.saudacao("Vania");
+//        
+//        
+//        
+//        System.out.println(claudio.getNome());
+//    
+        
+        String texto;
+        int idade;
+        
+//        Atribuicao
+        texto = "Ola ";
+        
+        idade = 12;
+        
+        System.out.println(texto+ idade);
+        
+        
+        
+        
+        
+        
+        
+
+        
+        
         
     }
     

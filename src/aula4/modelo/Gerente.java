@@ -13,7 +13,7 @@ package aula4.modelo;
 public class Gerente {
     
   String nome;
-  String cpf;
+  String niut;
   double salario;
   int senha;
   int numeroDeFuncionariosGerenciados;
