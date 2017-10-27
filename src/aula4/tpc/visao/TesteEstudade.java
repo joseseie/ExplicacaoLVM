@@ -16,8 +16,17 @@ public class TesteEstudade {
         Estudante e = new Estudante ();
         
         String nome = JOptionPane.showInputDialog("Digite o nome");
-        String idade = JOptionPane.showInputDialog("Digite a idade");
-        String nuit = JOptionPane.showInputDialog("Digite o nuit");
+        String idadeStr = JOptionPane.showInputDialog("Digite a idade");
+        String nuitStr = JOptionPane.showInputDialog("Digite o nuit");
+        
+        int idade = Integer.parseInt(idadeStr);
+        int nuit=Integer.parseInt(nuitStr);
+        
+        e.setNome(nome);
+        e.setIdade(idade);
+        e.setNuit(nuit);
+        
+        JOptionPane.showMessageDialog(null, e.toString());
         
         
         
